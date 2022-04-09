@@ -1,0 +1,48 @@
+*{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html{
+    background: rgb(174,238,198);
+    background: radial-gradient(circle, rgba(174,238,198,1) 10%, rgba(233,148,148,1) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70vh;
+}
+.content{
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: rgb(113, 152, 158);
+}
+h1{
+    border: 1px solid;
+    border-radius: 10px;
+}
+.num-count{
+
+}
+.option button{
+    outline: 1px solid;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px;
+    margin: 5px 10px;
+}
+.option2 button{
+    outline: 1px solid;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+button{
+    background-color: rgb(198, 137, 255);
+}
